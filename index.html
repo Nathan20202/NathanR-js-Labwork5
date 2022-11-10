@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Full_review-REVERSAT_Nathan</title>
+        <link rel = "stylesheet" href="./CSS/styles.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>HOME</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="excel.html">Excel</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form id="main-form" name="mainForm" onsubmit="return false">
+
+                    <div>
+                        <label for="FirstName">Enter your first name:</label><br>
+                        <input type="text" id="FirstName" required>
+                    </div><br>
+
+                    <div>
+                        <label for="LastName">Enter your last name:</label><br>
+                        <input type="text" id="LastName" required>
+                    </div><br>
+
+                    <div>
+                        <label for="EmailAddress">Enter your email address:</label><br>
+                        <input type="text" id="EmailAddress" required>
+                    </div><br>
+
+                    <div>
+                        <label for="Address">Enter your address:</label><br>
+                        <input type="text" id="Address" required>
+                    </div><br>
+
+                    <div>
+                        <label for="City">Enter your city:</label><br>
+                        <input type="text" id="City" required>
+                    </div><br>
+
+                    <div>
+                        <label for="Province">Enter your province:</label><br>
+                        <input type="text" id="Province" required>
+                    </div><br>
+
+                    <div class="Options">
+                        <p>Please select your option:</p>
+
+                        <input type="radio" id="Premium"  name="fav_language" value="Premium Membership" checked>
+                        <label for="Premium">Premium Membership</label><br>
+
+                        <input type="radio" id="Standard" name="fav_language" value="Standard Membership">
+                        <label for="Standard">Standard Membership</label><br>
+
+                        <input type="radio" id="Basic" name="fav_language" value="Basic Membership">
+                        <label for="Basic">Basic Membership</label>
+                    </div>
+                <br>
+
+                <button type="submit" onclick="userForm()">Send</button>
+                <button type="reset" onclick="window.location='index.html';">Cancel</button>
+
+            </form>
+            <br><hr>
+
+            <div id="output">
+                <!-- here is where the user should see the result (output) -->
+            </div>
+
+        </main>
+
+        <footer>
+
+            <p>
+                ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - REVERSAT NATHAN
+            </p>
+
+        </footer>
+
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>

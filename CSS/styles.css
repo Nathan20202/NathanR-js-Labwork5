@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    font-family: "Source Code Pro",sans-serif , Arial;
+    margin:0 25% 0 25%;
+
+}
+
+header{
+    background-color: #B3FFAE;
+    border-radius: 7px;
+    margin: 20px 0;
+    padding: 20px 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+header h1{
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #002205;
+}
+
+header a:hover{
+    color: darkorchid;
+}
+
+main{
+    background-color: #F8FFDB;
+    border-radius: 7px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+main button{
+    background-color:#ffdad8;
+    color:#410006;
+    border-radius: 7px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    will-change: transform;
+    cursor: pointer;
+    width:100px;
+    height:30px;
+}
+
+input[type=radio] {
+    cursor:pointer;
+}
+
+footer{
+    background-color:#B3FFAE;
+    color: #002205;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
